@@ -1,0 +1,22 @@
+@media(max-width: 768px) {
+  #home-section {
+    background: url(../img/CRTM_mobile.jpg) !important;
+    padding-top: 40px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: center;
+    min-height: 700px;
+    min-width: 100vw;   
+  }
+  #home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px !important;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  #quote {
+    font-size: 25px;
+  }
+}
